@@ -29,6 +29,7 @@ body {
 	overflow: hidden;
 	border-radius: 6px;
 	position: relative;
+	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 4px #000000);
 }
 
 #image {
@@ -54,6 +55,7 @@ body {
 #titles {
 	display: flex;
 	align-items: flex-end;
+	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 4px #000000);
 }
 
 #title {
@@ -72,6 +74,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	margin: 2px 0 0 0;
+	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 4px #000000);
 }
 
 #difficulty, #bpm, #njs {
@@ -81,6 +84,7 @@ body {
 	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 4px #000000);
 }
 
 #difficulty {
@@ -180,6 +184,7 @@ body {
 	font-size: 34px;
 	font-weight: 700;
 	letter-spacing: 2px;
+	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 4px #000000);
 }
 
 /* Animations and state */
