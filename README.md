@@ -1,6 +1,6 @@
 # Beat Saber Overlay
 
-A fork of Reselim's overlay for Beat Saber with minor improvements
+A fork of Reselim's Beat Saber Overlay with minor improvements
 
 ![preview](https://i.imgur.com/Zi4OnEa.png)
 
