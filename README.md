@@ -2,7 +2,7 @@
 
 A fork of Reselim's overlay for Beat Saber with minor improvements
 
-![preview](https://i.imgur.com/ymDMxje.png)
+![preview](https://i.imgur.com/Zi4OnEa.png)
 
 ## Changes
 - Added shadows to improve visiblity
@@ -15,7 +15,7 @@ A fork of Reselim's overlay for Beat Saber with minor improvements
 3. Set the URL as `https://dyvinia.github.io/beat-saber-overlay/` and the Width/Height equal to your canvas size (1920x1080, etc.)
 4. (Optional) For 1080p canvases, add the `scale` modifier (ex. `http://dyvinia.github.io/beat-saber-overlay/?modifiers=scale`) to scale the overlay by 1.5x
 
-![image](https://i.imgur.com/H6rkWXi.png)
+![image](https://i.imgur.com/vh8deQg.png)
 
 ## Options
 
