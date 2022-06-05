@@ -1,6 +1,6 @@
 # Beat Saber Overlay
 
-A fork of Reselim's overlay for Beat Saber with minor improvments
+A fork of Reselim's overlay for Beat Saber with minor improvements
 
 ![preview](https://i.imgur.com/ymDMxje.png)
 
@@ -12,14 +12,10 @@ A fork of Reselim's overlay for Beat Saber with minor improvments
 
 1. Download and install the [BeatSaberHTTPStatus plugin](https://github.com/opl-/beatsaber-http-status/releases)
 2. Create a Browser source
-
-![image](https://i.imgur.com/PSK4Cgw.png)
-
 3. Set the URL as `https://dyvinia.github.io/beat-saber-overlay/` and the Width/Height equal to your canvas size (1920x1080, etc.)
+4. (Optional) For 1080p canvases, add the `scale` modifier (ex. `http://dyvinia.github.io/beat-saber-overlay/?modifiers=scale`) to scale the overlay by 1.5x
 
 ![image](https://i.imgur.com/H6rkWXi.png)
-
-4. (Optional) For 1080p canvases, add the `scale` modifier (ex. `http://dyvinia.github.io/beat-saber-overlay/?modifiers=scale`) to scale the overlay by 1.5x
 
 ## Options
 
