@@ -27,7 +27,7 @@ body {
 
 #cover {
 	overflow: hidden;
-	border-radius: 10%;
+	border-radius: 4px;
 	position: relative;
 	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 4px #000000);
 }
@@ -76,7 +76,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	margin: 2px 0 0 0;
-	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 4px #000000);
+	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 3px #000000);
 }
 
 #difficulty, #bpm, #njs {
@@ -86,7 +86,7 @@ body {
 	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 4px #000000);
+	margin-bottom: 4px;
 }
 
 #difficulty {
@@ -95,14 +95,17 @@ body {
 	color: black;
 	background: white;
 	border-radius: 4px;
+	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 4px #000000);
 }
 
 #bpm {
 	margin: 0 8px;
+	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 3px #000000);
 }
 
 #njs {
 	margin: 0 0px;
+	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 3px #000000);
 }
 
 /* Progress */
