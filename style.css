@@ -154,7 +154,7 @@ body {
 #performance {
 	display: flex;
 	flex-direction: column;
-	margin: 0 0 20px 0;
+	margin: 0 0 12px 0;
 }
 
 .performance-group {
@@ -178,7 +178,7 @@ body {
 
 	opacity: 0.75;
 
-	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 4px #000000);
+	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 3px #000000);
 }
 
 #rank, #combo {
