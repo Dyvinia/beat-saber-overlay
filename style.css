@@ -76,7 +76,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	margin: 2px 0 0 0;
-	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 3px #000000);
+	filter: drop-shadow(0px 0px 1px #000000) drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 4px #000000);
 }
 
 #difficulty, #bpm, #njs {
@@ -100,12 +100,12 @@ body {
 
 #bpm {
 	margin: 0 8px;
-	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 3px #000000);
+	filter: drop-shadow(0px 0px 1px #000000) drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 4px #000000);
 }
 
 #njs {
 	margin: 0 0px;
-	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 3px #000000);
+	filter: drop-shadow(0px 0px 1px #000000) drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 4px #000000);
 }
 
 /* Progress */
@@ -178,7 +178,7 @@ body {
 
 	opacity: 0.75;
 
-	filter: drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 3px #000000);
+	filter: drop-shadow(0px 0px 1px #000000) drop-shadow(0px 0px 2px #000000) drop-shadow(0px 0px 4px #000000);
 }
 
 #rank, #combo {
