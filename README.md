@@ -30,7 +30,11 @@ https://dyvinia.github.io/beat-saber-overlay/?scale=1.25&top
 	* Moves the overlay to the top and reverses the layout vertically
 - `rtl`
 	* Moves the overlay to the right and uses right-to-left text
-- `scale=X`
+- `scale=<number>`
 	* Scales the overlay by X amount (1.5 is recommended for a 1080p canvas)
+- `illusion`
+	* Moves difficulty text up by one pixel to account for an optical illusion
+- `rounding=<pixels>`
+	* Adjusts the corner rounding of the cover art
 - `black`
 	* Makes the background black, for testing purposes
