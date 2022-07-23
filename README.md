@@ -24,7 +24,7 @@ Options are added to the URL query as such:
 https://dyvinia.github.io/beat-saber-overlay/?scale=1.25&top
 ```
 
-- `ip=X`/`port=X`
+- `ip=<address>` and `port=<port>`
 	* to events from another IP and/or port.
 - `top`
 	* Moves the overlay to the top and reverses the layout vertically
