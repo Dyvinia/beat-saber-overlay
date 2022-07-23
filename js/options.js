@@ -32,9 +32,13 @@ if (query.has('black')){
 
 if (query.has('font')){
 	const fontName = query.get('font');
-	const test = document.createElement('link');
-	test.rel = 'stylesheet';
-	test.href = `https://fonts.googleapis.com/css?family=${fontName}:400,600,700,800`;
-	document.head.appendChild(test);
+	const link = document.createElement('link');
+	link.rel = 'stylesheet';
+	link.href = `https://fonts.googleapis.com/css?family=${fontName}:400,600,700,800`;
+	document.head.appendChild(link);
 	document.body.style.fontFamily = fontName;
+}
+
+if (query.has('italics')){
+	document.body.style.fontStyle = 'italic';
 }
