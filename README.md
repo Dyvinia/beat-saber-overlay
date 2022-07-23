@@ -6,9 +6,9 @@ A fork of Reselim's Beat Saber Overlay with minor improvements
 
 ## Changes
 - Full Combos are displayed
-- More detailed user options
 - Added shadows to improve visiblity
-- Fixes to Corner Rounding
+- More detailed url options
+- Fixes to corner rounding on song cover
 
 ## Installation (OBS)
 
@@ -16,7 +16,7 @@ A fork of Reselim's Beat Saber Overlay with minor improvements
 2. Create a Browser source
 3. Set the URL as `https://dyvinia.github.io/beat-saber-overlay/` and the Width/Height equal to your canvas size (1920x1080, etc.)
 
-![image](https://i.imgur.com/vh8deQg.png)
+![image](https://i.imgur.com/i8YmwDR.png)
 
 ## Options
 
