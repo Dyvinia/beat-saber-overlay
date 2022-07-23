@@ -14,6 +14,15 @@ if (query.has('top')){
 	document.head.appendChild(link);
 }
 
+if (query.has('illusion')){
+	document.getElementById("difficulty").style["margin-bottom"] = "5px";
+}
+
+if (query.has('rounding')){
+	const rounding = query.get('rounding')
+	document.getElementById("cover").style["border-radius"] = rounding + "px";
+}
+
 if (query.has('black')){
 	document.body.style.backgroundColor = 'black';
 }
