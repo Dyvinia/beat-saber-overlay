@@ -21,7 +21,7 @@ A fork of Reselim's Beat Saber Overlay with minor improvements
 Options are added to the URL query as such:
 
 ```
-https://dyvinia.github.io/beat-saber-overlay/?scale=1.25&top
+https://dyvinia.github.io/beat-saber-overlay/?scale=1.25&rounding=6&illusion
 ```
 
 - `ip=<address>` and `port=<port>`
