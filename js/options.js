@@ -14,8 +14,11 @@ if (query.has('top')){
 	document.head.appendChild(link);
 }
 
-if (query.has('illusion')){
-	document.getElementById("difficulty").style["margin-bottom"] = "5px";
+if (query.has('shift')){
+	var shift = query.get("shift") || "1";
+	shift = parseFloat(shift) + 4;
+	console.log("Shifting by: " + shift);
+	document.getElementById("difficulty").style["margin-bottom"] = shift + "px";
 }
 
 if (query.has('rounding')){
