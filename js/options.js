@@ -1,29 +1,19 @@
 const query = new URLSearchParams(location.search);
 
-(() => {
-	const handlers = {
-		modifiers(string) {
-			string.split(",").forEach((modifier) => {
-				var link = document.createElement("link");
-				
-				link.setAttribute("rel", "stylesheet");
-				link.setAttribute("href", `./modifiers/${modifier}.css`);
-		
-				document.head.appendChild(link);
-			});
-		}
-	};
+if (query.has('scale')){
+	const scale = query.get('scale')
+	console.log("Scale: " + scale);
+	document.documentElement.style.setProperty('zoom', scale);
+}
+else console.log("Scale: " + 1);
 
-	Object.keys(handlers).forEach((key) => {
-		var value = query.get(key);
+if (query.has('top')){
+	var link = document.createElement("link");
+	link.setAttribute("rel", "stylesheet");
+	link.setAttribute("href", `./modifiers/top.css`);
+	document.head.appendChild(link);
+}
 
-		if (value) {
-			handlers[key](value);
-		}
-	});
-	
-	if (location.hash) {
-		// Legacy URL hash support
-		handlers.modifiers(location.hash.slice(1));
-	}
-})();
+if (query.has('black')){
+	document.body.style.backgroundColor = 'black';
+}
