@@ -29,3 +29,12 @@ if (query.has('rounding')){
 if (query.has('black')){
 	document.body.style.backgroundColor = 'black';
 }
+
+if (query.has('font')){
+	const fontName = query.get('font');
+	const test = document.createElement('link');
+	test.rel = 'stylesheet';
+	test.href = `https://fonts.googleapis.com/css?family=${fontName}:400,600,700,800`;
+	document.head.appendChild(test);
+	document.body.style.fontFamily = fontName;
+}
