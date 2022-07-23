@@ -21,22 +21,16 @@ A fork of Reselim's Beat Saber Overlay with minor improvements
 Options are added to the URL query as such:
 
 ```
-https://dyvinia.github.io/beat-saber-overlay/?modifiers=top
+https://dyvinia.github.io/beat-saber-overlay/?scale=1.25&top
 ```
 
-### `ip` and `port`
-
-Listen to events from another IP and/or port.
-
-### `modifiers`
-
-Multiple modifiers can be seperated with commas.
-
+- `ip=X`/`port=X`
+	* to events from another IP and/or port.
 - `top`
 	* Moves the overlay to the top and reverses the layout vertically
 - `rtl`
 	* Moves the overlay to the right and uses right-to-left text
-- `scale`
-	* Scales the overlay by 1.5x
-- `test`
+- `scale=X`
+	* Scales the overlay by X amount (1.5 is recommended for a 1080p canvas)
+- `black`
 	* Makes the background black, for testing purposes
