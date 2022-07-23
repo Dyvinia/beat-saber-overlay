@@ -13,8 +13,8 @@ const ui = (() => {
 
 		return (data) => {
 			score.innerText = format(data.score);
-			combo.innerText = data.combo; console.log(data.missedNotes)
-			combotext.innerText = (data.missedNotes > 0 ? ("Combo") : ("Full Combo"));
+			combo.innerText = data.combo;
+			combotext.innerText = (data.combo == data.passedNotes ? ("Full Combo") : ("Combo"));
 			rank.innerText = (data.score == "0" ? ("SS") : data.rank);
 			percentage.innerText = (data.currentMaxScore > 0 ? (Math.floor((data.score / data.currentMaxScore) * 1000) / 10) : 0) + "%";
 		}
