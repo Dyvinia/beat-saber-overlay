@@ -27,7 +27,7 @@ https://dyvinia.github.io/beat-saber-overlay/?scale=1.25&rounding=6&shift
 ```
 
 - `ip=<address>` and `port=<port>`
-	* to events from another IP and/or port.
+	* Use another IP and/or port.
 - `top`
 	* Moves the overlay to the top and reverses the layout vertically
 - `scale=<scaling>`
@@ -36,5 +36,11 @@ https://dyvinia.github.io/beat-saber-overlay/?scale=1.25&rounding=6&shift
 	* Moves difficulty text row up by one pixel to account for an optical illusion. Can also specify a value in pixels (`shift=<pixels>`).
 - `rounding=<pixels>`
 	* Adjusts the corner rounding of the cover art
+- `font=<font-family>`
+	* Changes the font family that the overlay uses
+	* Example using BeatSaber default font
+	* <img src="https://i.imgur.com/HcLUc41.png" width="300"/>
+- `italics`
+	* Change text to be italicized 
 - `black`
 	* Makes the background black, for testing purposes
