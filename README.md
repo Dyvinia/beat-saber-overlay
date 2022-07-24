@@ -49,7 +49,7 @@ https://dyvinia.github.io/beat-saber-overlay/?scale=1.25&rounding=6&shift
 
 ## Examples
 
-* Example using BeatSaber default font  
+* BeatSaber's default font & italics  
 `https://dyvinia.github.io/beat-saber-overlay/?font=Oswald&italics`  
   <img src="https://i.imgur.com/8udV2uR.png" width="400"/>
 
