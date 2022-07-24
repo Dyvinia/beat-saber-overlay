@@ -38,9 +38,9 @@ https://dyvinia.github.io/beat-saber-overlay/?scale=1.25&rounding=6&shift
 	* Adjusts the corner rounding of the cover art
 - `font=<font-family>`
 	* Changes the font family that the overlay uses
-	* Example using BeatSaber default font
-	* <img src="https://i.imgur.com/HcLUc41.png" width="300"/>
+	* Example using BeatSaber default font `https://dyvinia.github.io/beat-saber-overlay/?font=Oswald&italics`
+	    <img src="https://i.imgur.com/8udV2uR.png" width="300"/>
 - `italics`
-	* Change text to be italicized 
+	* Italicize text
 - `black`
 	* Makes the background black, for testing purposes
