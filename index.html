@@ -25,7 +25,7 @@
 
 			<div id="beatmap">
 				<div id="cover">
-					<img id="image">
+					<img id="image" src="https://i.imgur.com/EImv0wS.jpeg">
 					
 					<svg width="90" height="90">
 						<circle cx="45" cy="45" r="30" id="remaining"></circle>
@@ -61,5 +61,8 @@
 		<script src="./js/ui.js"></script>
 		<script src="./js/events.js"></script>
 		<script src="./js/manager.js"></script>
+		<script>
+			if (query.has('test')) ui.show();
+		</script>
 	</body>
 </html>
