@@ -7,6 +7,7 @@ A fork of Reselim's Beat Saber Overlay with minor improvements
 ## Changes
 - Full Combos are displayed
 - Added shadows to improve visiblity
+- Custom Font support
 - More detailed url options
 - Fixes to corner rounding on song cover
 
@@ -37,7 +38,7 @@ https://dyvinia.github.io/beat-saber-overlay/?scale=1.25&rounding=6&shift
 - `rounding=<pixels>`
 	* Adjusts the corner rounding of the cover art
 - `font=<font-family>`
-	* Changes the font family that the overlay uses (Google Fonts)
+	* Changes the font family that the overlay uses ([Google Fonts](https://fonts.google.com/))
 	* Example using BeatSaber default font `https://dyvinia.github.io/beat-saber-overlay/?font=Oswald&italics`
 	    <img src="https://i.imgur.com/8udV2uR.png" width="300"/>
 - `italics`
