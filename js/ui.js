@@ -1,6 +1,13 @@
 const ui = (() => {
 	var main = document.getElementById("overlay");
 
+	var mapData;
+	const setData = (() => {
+		return (data) => {
+			mapData = data;
+		};
+	})();
+
 	const performance = (() => {
 		var rank = document.getElementById("rank");
 		var percentage = document.getElementById("percentage");
@@ -14,7 +21,7 @@ const ui = (() => {
 		return (data) => {
 			score.innerText = format(data.score);
 			combo.innerText = data.combo;
-			combotext.innerText = (data.combo == data.passedNotes ? ("Full Combo") : ("Combo"));
+			combotext.innerText = (data.missedNotes === 0 ? ("Full Combo") : ("Combo"));
 			rank.innerText = (data.score == "0" ? ("SS") : data.rank);
 			percentage.innerText = (data.currentMaxScore > 0 ? (Math.floor((data.score / data.currentMaxScore) * 1000) / 10) : 0) + "%";
 		}
@@ -48,7 +55,7 @@ const ui = (() => {
 		function update(time) {
 			time = time || Date.now();
 
-			var delta = time - began;
+			var delta = (time - began) * mapData.mod.songSpeedMultiplier;
 
 			var progress = Math.floor(delta / 1000);
 			var percentage = Math.min(delta / duration, 1);
@@ -155,6 +162,7 @@ const ui = (() => {
 			main.classList.remove("hidden");
 		},
 
+		setData,
 		performance,
 		timer,
 		beatmap

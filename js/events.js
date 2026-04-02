@@ -3,6 +3,7 @@ const events = {
 		console.log("Connected to Beat Saber");
 
 		if (data.beatmap && data.performance) {
+			ui.setData(data);
 			ui.beatmap(data.beatmap, time);
 			ui.performance(data.performance);
 			ui.show();
@@ -10,6 +11,7 @@ const events = {
 	},
 
 	songStart(data, time) {
+		ui.setData(data);
 		ui.beatmap(data.beatmap, time);
 		ui.performance(data.performance);
 		ui.show();
